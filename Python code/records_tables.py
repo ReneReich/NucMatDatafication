@@ -38,11 +38,11 @@ def find_entities_in_tables(dirctory_path: str, file_list, entities: dict):
         count += 1
         print(f'file {count} of {len(file_list)} processed')
     df = pd.DataFrame(data_frame, columns=columns)
-    df.to_excel("Entities_in_tables_v3_1.xlsx")
+    df.to_excel("Entities_in_tables.xlsx")
 
 
-file_list = pd.read_excel("Papers_containing_alloys.xlsx")
-src = "/Users/Rene/Dropbox/Master Thesis/Paper Population"
+file_list = pd.read_excel("Files_classifications.xlsx")
+src = "/XML directory/path"
 expressions = {
     '316SS':    'SS\s*[-]?\s*316|316\w*\s*[-]?\s*SS|316\w*\s*[-]?\s*(stainless)?\s*[-]?\s*steel|(stainless)?\s*[-]?\s*steel\s*[-]?\s*316|AISI\s*[-]?\s*\w*\s*[-]?\s*316',
     'HT9':      '(?:HT|Ht|ht)\s*[-]?\s*9',
