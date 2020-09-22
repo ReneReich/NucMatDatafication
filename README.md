@@ -3,11 +3,11 @@
 Welcome!
 
 Here you can find the publicly available python codes created for the master's thesis "Datafication of material mechanisms in nuclear applications". The three Excel files are eiter the output of the python functions or manually gathered SS316 database. 
-> collect_articles.py contains the functions to download scientific publications of interest as XML files,
-> classify_files.py extracts the DOI-number of files depending on a query, e.g. REGEX of metallic alloys (output: Files_classifications.xlsx),
-> records_tables.py counts the appearences of REGEX entities in the classified XML-files (output: Entities_in_tables.xlsx),
-> SS316_database.xlsx is the resulting collection of material data of the austenitic stainless steel SS316,
-> material_mechanism_map.py plots the derived material mechanisms map of SS316 based on the collected database before. 
+* collect_articles.py contains the functions to download scientific publications of interest as XML files,
+* classify_files.py extracts the DOI-number of files depending on a query, e.g. REGEX of metallic alloys (output: Files_classifications.xlsx),
+* records_tables.py counts the appearences of REGEX entities in the classified XML-files (output: Entities_in_tables.xlsx),
+* SS316_database.xlsx is the resulting collection of material data of the austenitic stainless steel SS316,
+* material_mechanism_map.py plots the derived material mechanisms map of SS316 based on the collected database before. 
 
 
 ## Datafication of material mechanisms in nuclear applications
